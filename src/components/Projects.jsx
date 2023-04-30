@@ -49,7 +49,7 @@ function ProjectCard(props) {
 
 export default function Projects() {
   return (
-    <div className="container d-section" id="about">
+    <div className="container d-section" id="projects">
       <div className="">
         <div className="second-font s-title">03. Some Things I've Built</div>
         {projectData.map((item, index) => (

@@ -15,7 +15,7 @@ export default function Hero() {
           interested to learn more about this awesome & complex world of
           programming.
         </p>
-        <button className="s-button">Check out my projects!</button>
+        <button className="s-button"><a href="#projects">Check out my projects!</a></button>
       </div>
     </div>
   );

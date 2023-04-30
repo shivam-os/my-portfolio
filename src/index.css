@@ -52,7 +52,7 @@ body {
   direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10rem 0;
+  margin: 12rem 0;
 }
 
 .d-section > div {
@@ -78,6 +78,11 @@ h2 {
 .s-button:hover,
 .resume:hover {
   border: 3px solid var(--light-green);
+}
+
+.s-button > a {
+  text-decoration: none;
+  color: var(--light-green)
 }
 
 .l-gray {
