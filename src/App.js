@@ -1,13 +1,12 @@
 import { Container } from "react-bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { Button } from "react-bootstrap";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-import {FaArrowUp} from "react-icons/fa"
+import { FaArrowUp } from "react-icons/fa";
 
 function App() {
   return (
@@ -19,11 +18,10 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-      <button
-        id="btn-back-to-top"
-      >
-        <a href="#hero"><FaArrowUp color="#00ff00"/></a>
-        
+      <button id="btn-back-to-top">
+        <a href="#hero">
+          <FaArrowUp color="#00ff00" />
+        </a>
       </button>
     </div>
   );

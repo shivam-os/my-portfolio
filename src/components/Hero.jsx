@@ -1,5 +1,3 @@
-import { Container, Stack } from "react-bootstrap";
-
 export default function Hero() {
   return (
     <div className="container d-section" id="hero">
@@ -15,7 +13,9 @@ export default function Hero() {
           interested to learn more about this awesome & complex world of
           programming.
         </p>
-        <button className="s-button"><a href="#projects">Check out my projects!</a></button>
+        <button className="s-button">
+          <a href="#projects">Check out my projects!</a>
+        </button>
       </div>
     </div>
   );
