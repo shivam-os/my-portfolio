@@ -1,4 +1,4 @@
-import {FiMenu} from "react-icons/fi"
+import { FiMenu } from "react-icons/fi";
 
 export default function Header() {
   return (
@@ -16,7 +16,7 @@ export default function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <FiMenu color="#00ff00"/>
+          <FiMenu color="#00ff00" />
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">

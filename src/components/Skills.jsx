@@ -28,15 +28,14 @@ export default function Skills() {
         <div className="second-font s-title">02. My Skills</div>
         <p>These are the technologies with which I'm currently familiar:</p>
         <div>
-        <ul>
-          {skills.map((item, index) => (
-            <li key={index}>
-              <b>{item.title}</b>: {item.content}
-            </li>
-          ))}
-        </ul>
+          <ul>
+            {skills.map((item, index) => (
+              <li key={index}>
+                <b>{item.title}</b>: {item.content}
+              </li>
+            ))}
+          </ul>
         </div>
-        
       </div>
     </div>
   );
