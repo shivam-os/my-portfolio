@@ -9,7 +9,7 @@ const projectData = [
     title: "Profiler",
     content:
       "A web app which allows users to manage all the online personalities they follow in one place. Users can add profiles and all the associated links. MongoDB is used as the database and JWT authentication is implemented with the help of passport. React Hook Form is used for getting the user inputs. Validators are added on both frontend and backend to get proper data from users.",
-    github: "https://github.com",
+    github: "https://github.com/shivam-os/profiler",
     live: "https://live.com",
     packages: ["React", "Chakra UI", "Express", "MongoDB", "React-Hook-Form", "Yup"],
   },
@@ -48,7 +48,7 @@ function ProjectCard(props) {
         <p>{item.content}</p>
         {
           <div className="project-links">
-            <a href={item.github}>GitHub</a> <a href={item.live}>Live</a>
+            <a href={item.github} target="_blank noreferrer">GitHub</a> <a href={item.live} target="_blank noreferrer">Live</a>
           </div>
         }
         <div>

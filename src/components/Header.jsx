@@ -1,11 +1,12 @@
 import { FiMenu } from "react-icons/fi";
+import siteIcon from "../assets/site-icon.png"
 
 export default function Header() {
   return (
     <nav className="navbar navbar-expand-lg sticky-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#hero">
-          Navbar
+          <img src={siteIcon} alt="site-logo" id="site-logo"/>
         </a>
         <button
           className="navbar-toggler"

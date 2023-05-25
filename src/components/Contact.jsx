@@ -9,15 +9,15 @@ const socialLinks = [
   },
   {
     icon: <FaLinkedinIn color="#cbd5e0"/>,
-    link: "https://linkedin.com/shivam",
+    link: "https://www.linkedin.com/in/shivam070/",
   },
   {
     icon: <FaPhoneAlt color="#cbd5e0"/>,
-    link: "tel:+919999999999",
+    link: "tel:+919958737924",
   },
   {
     icon: <HiOutlineMail color="#cbd5e0"/>,
-    link: "mailto:shivam@gmail.com",
+    link: "mailto:shivam07.dev@gmail.com",
   },
 ];
 
@@ -31,12 +31,12 @@ export default function Contact() {
           I'm currently looking for opportunities actively. So, my inbox is open
           at the moment.
           <br /> If you have any question or just want to say hi, send me a
-          mail. I'll try my best to get back to you!
+          mail. I'll try my best to get back to you.
         </p>
         <div className="social-box">
           {socialLinks.map((item, index) => (
-            <div className="social-icon">
-              <a href={item.link}>{item.icon}</a>
+            <div className="social-icon" key={index}>
+              <a href={item.link} target="_blank noreferrer">{item.icon}</a>
             </div>
           ))}
         </div>
