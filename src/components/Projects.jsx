@@ -8,9 +8,9 @@ const projectData = [
     img: profilerProject,
     title: "Profiler",
     content:
-      "A web app which allows users to manage all the online personalities they follow in one place. Users can add profiles and all the associated links. MongoDB is used as the database and JWT authentication is implemented with the help of passport. React Hook Form is used for getting the user inputs. Validators are added on both frontend and backend to get proper data from users.",
+      "A web app which allows users to remember all the online personalities they follow in one place. Users can add profiles and all the associated links. MongoDB is used as the database and JWT authentication is implemented with the help of passport. React Hook Form is used for getting the user inputs. Validators are added on both frontend and backend to get proper data from users.",
     github: "https://github.com/shivam-os/profiler",
-    live: "https://live.com",
+    live: "https://profilerapp.shivam-os.com",
     packages: ["React", "Chakra UI", "Express", "MongoDB", "React-Hook-Form", "Yup"],
   },
   {
