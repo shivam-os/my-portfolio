@@ -33,7 +33,7 @@ export default function Header() {
             <a className="nav-link" href="#contact">
               04.Contact
             </a>
-            <a className="nav-link resume" href="#resume">
+            <a className="nav-link resume" href="https://bit.ly/shivamz-resume" target="_blank" rel="noreferrer">
               Resume
             </a>
           </div>
