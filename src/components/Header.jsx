@@ -1,12 +1,12 @@
 import { FiMenu } from "react-icons/fi";
-import siteIcon from "../assets/site-icon.png"
+import siteIcon from "../assets/site-icon.png";
 
 export default function Header() {
   return (
     <nav className="navbar navbar-expand-lg sticky-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#hero">
-          <img src={siteIcon} alt="site-logo" id="site-logo"/>
+          <img src={siteIcon} alt="site-logo" id="site-logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -33,7 +33,12 @@ export default function Header() {
             <a className="nav-link" href="#contact">
               04.Contact
             </a>
-            <a className="nav-link resume" href="https://bit.ly/shivamz-resumev2" target="_blank" rel="noreferrer">
+            <a
+              className="nav-link resume"
+              href="https://bit.ly/shivam-resumev2"
+              target="_blank"
+              rel="noreferrer"
+            >
               Resume
             </a>
           </div>
